@@ -127,7 +127,7 @@ h1 {
 
 /* Menu*/
 .menu-section {
-  height: 100vh;
+  /* height: 150vh; */
   position: relative;
 }
 
@@ -164,4 +164,18 @@ h1 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  height: 300px;
+  background-color: black;
+  margin-top: 50px;
+  padding-top: 50px;
+  z-index: 99;
+}
+
+.footer-nav ul li a {
+  color: white;
 }
