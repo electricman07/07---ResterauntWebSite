@@ -191,11 +191,11 @@ form {
   width: 100%;
 }
 
-.form-item input, .form-item textarea {
+.form-item input, .form-item textarea, .form-item select {
   width: 100%;
 }
 
-.form-item input {
+.form-item input, .form-item select {
   height: 2rem;
   font-size: 1.5rem;
 }
