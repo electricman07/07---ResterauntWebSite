@@ -30,6 +30,21 @@ body:before {
   );
 }
 
+.header-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 99;
+}
+
+.header-content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 h1,
 h3 {
   z-index: 99;
@@ -40,4 +55,23 @@ h3 {
 h1 {
   font-weight: 700;
   font-size: 4rem;
+}
+
+.main-nav {
+  z-index: 99;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-nav ul li {
+  list-style-type: none;
+}
+
+.main-nav ul li a {
+  z-index: 99;
+  text-decoration: none;
+  color: white;
 }
