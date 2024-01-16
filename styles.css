@@ -75,3 +75,25 @@ h1 {
   text-decoration: none;
   color: white;
 }
+
+/* Features */
+.features-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.img-container {
+  width: 100%;
+  height: auto;
+}
+
+.feature-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40%;
+  border-radius: 1rem;
+  padding: 1rem;
+}
