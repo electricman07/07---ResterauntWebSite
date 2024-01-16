@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
-html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body {
   font-family: "Roboto", sans-serif;
@@ -13,6 +9,10 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 }
 
 body:before {
@@ -28,6 +28,10 @@ body:before {
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0.3)
   );
+}
+
+.container {
+  margin: 10px;
 }
 
 .header-container {
@@ -169,13 +173,23 @@ h1 {
 /* Footer */
 footer {
   position: relative;
-  height: 300px;
+  height: 100px;
   background-color: black;
-  margin-top: 50px;
-  padding-top: 50px;
+  margin-top: 10px;
+  /* padding-top: 50px; */
   z-index: 99;
+}
+
+.section-footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-nav ul li a {
   color: white;
+}
+
+.copyright p {
+  color: white;
+  padding: 1rem;
 }
