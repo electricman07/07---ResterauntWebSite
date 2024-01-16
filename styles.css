@@ -117,10 +117,51 @@ h1 {
   margin: 0 auto;
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 .feature-image {
   width: 100%;
   height: auto;
+}
+
+/* Menu*/
+.menu-section {
+  height: 100vh;
+  position: relative;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.menu-item {
+  /* height: 30%; */
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: bisque;
+}
+.column1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.column2 {
+  width: 30%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.menu-img {
+  height: 150px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
