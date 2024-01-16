@@ -8,4 +8,9 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  height: 300vh;
+  background: url(./images/dogu-tuncer-92J2wb7M7GU-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
