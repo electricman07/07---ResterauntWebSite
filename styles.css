@@ -77,10 +77,22 @@ h1 {
 }
 
 /* Features */
+.features-section {
+  position: relative;
+}
+
 .features-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+  z-index: 99;
+  background-image: none;
+}
+
+.feature-header {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
 }
 
 .feature {
