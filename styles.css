@@ -80,20 +80,35 @@ h1 {
 .features-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.feature {
   border: 1px solid black;
   border-radius: 1rem;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.feature h2,
+.feature p {
+  padding: 2rem;
 }
 
 .img-container {
   width: 100%;
   height: auto;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .feature-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 40%;
-  border-radius: 1rem;
-  padding: 1rem;
+  width: 100%;
+  height: auto;
 }
