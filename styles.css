@@ -170,6 +170,41 @@ h1 {
   background-repeat: no-repeat;
 }
 
+/* Contact */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.right {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.form-item input, .form-item textarea {
+  width: 100%;
+}
+
+.form-item input {
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.btn-container button {
+  width: 100%;
+  margin: 0; 
+}
+
 /* Footer */
 footer {
   position: relative;
