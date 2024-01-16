@@ -10,7 +10,34 @@ body {
   font-family: "Roboto", sans-serif;
   height: 300vh;
   background: url(./images/dogu-tuncer-92J2wb7M7GU-unsplash.jpg);
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+body:before {
+  height: 300vh;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.3)
+  );
+}
+
+h1,
+h3 {
+  z-index: 99;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
 }
