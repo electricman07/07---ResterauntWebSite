@@ -195,7 +195,7 @@ form {
   width: 100%;
 }
 
-.form-item input, .form-item select {
+.form-item input {
   height: 2rem;
   font-size: 1.5rem;
 }
