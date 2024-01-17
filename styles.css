@@ -30,6 +30,16 @@ body:before {
   );
 }
 
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container {
   margin: 10px;
 }
@@ -180,6 +190,7 @@ h1 {
   border: 1px solid black;
   border-radius: 1rem;
   padding: 2rem;
+  background-color: bisque;
 }
 
 form {
@@ -191,9 +202,18 @@ form {
   width: 100%;
 }
 
-.form-item input, .form-item textarea, .form-item select {
+.form-item { margin-top: 1rem;}
+
+.form-item input, .form-item textarea, .select-wrapper select {
   width: 100%;
+  border: 1px solid gray;
+  border-radius: .5rem;
 }
+
+.select-wrapper {
+  position: relative;
+}
+
 
 .form-item input {
   height: 2rem;
@@ -203,6 +223,7 @@ form {
 .btn-container button {
   width: 100%;
   margin: 0; 
+  border-radius: .5rem;
 }
 
 /* Footer */
