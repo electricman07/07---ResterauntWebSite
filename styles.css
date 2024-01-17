@@ -186,9 +186,15 @@ h1 {
 }
 
 /* Contact */
+.contact-section {
+  padding: 2rem;
+  
+}
+
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  
 }
 
 .left {
